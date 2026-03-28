@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
+<biblioteca>
+    <libro id="L001" disponible="si" categoria="Clásico">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor pais="España">Miguel de Cervantes</autor>
+        <paginas>1032</paginas>
+        <editorial>RAE</editorial>
+        <precio moneda="EUR">19.90</precio>
+    </libro>
+    
+    <libro id="L002" disponible="si" categoria="Fantasía">
+        <titulo>El Señor de los Anillos</titulo>
+        <autor pais="Reino Unido">J.R.R. Tolkien</autor>
+        <paginas>1216</paginas>
+        <editorial>Minotauro</editorial>
+        <precio moneda="EUR">25.00</precio>
+    </libro>
+    
+    <libro id="L003" disponible="no" categoria="Distopía">
+        <titulo>1984</titulo>
+        <autor pais="Reino Unido">George Orwell</autor>
+        <paginas>328</paginas>
+        <editorial>Debolsillo</editorial>
+        <precio moneda="EUR">9.95</precio>
+    </libro>
+    
+    <libro id="L004" disponible="si" categoria="Realismo Mágico">
+        <titulo>Cien años de soledad</titulo>
+        <autor pais="Colombia">Gabriel García Márquez</autor>
+        <paginas>496</paginas>
+        <editorial>Sudamericana</editorial>
+        <precio moneda="EUR">18.50</precio>
+    </libro>
+    
+    <libro id="L005" disponible="si" categoria="Ciencia Ficción">
+        <titulo>Dune</titulo>
+        <autor pais="EEUU">Frank Herbert</autor>
+        <paginas>704</paginas>
+        <editorial>Nova</editorial>
+        <precio moneda="EUR">21.90</precio>
+    </libro>
+    
+    <libro id="L006" disponible="no" categoria="Misterio">
+        <titulo>El código Da Vinci</titulo>
+        <autor pais="EEUU">Dan Brown</autor>
+        <paginas>608</paginas>
+        <editorial>Planeta</editorial>
+        <precio moneda="EUR">12.00</precio>
+    </libro>
+    
+    <libro id="L007" disponible="si" categoria="Drama">
+        <titulo>Orgullo y Prejuicio</titulo>
+        <autor pais="Reino Unido">Jane Austen</autor>
+        <paginas>448</paginas>
+        <editorial>Alba</editorial>
+        <precio moneda="EUR">14.25</precio>
+    </libro>
+    
+    <libro id="L008" disponible="si" categoria="Terror">
+        <titulo>Drácula</titulo>
+        <autor pais="Irlanda">Bram Stoker</autor>
+        <paginas>512</paginas>
+        <editorial>Penguin</editorial>
+        <precio moneda="EUR">11.50</precio>
+    </libro>
+    
+    <libro id="L009" disponible="no" categoria="Novela">
+        <titulo>El guardián entre el centeno</titulo>
+        <autor pais="EEUU">J.D. Salinger</autor>
+        <paginas>224</paginas>
+        <editorial>Alianza</editorial>
+        <precio moneda="EUR">10.00</precio>
+    </libro>
+    
+    <libro id="L010" disponible="si" categoria="Fantasía">
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor pais="Reino Unido">J.K. Rowling</autor>
+        <paginas>256</paginas>
+        <editorial>Salamandra</editorial>
+        <precio moneda="EUR">16.95</precio>
+    </libro>
+</biblioteca>
