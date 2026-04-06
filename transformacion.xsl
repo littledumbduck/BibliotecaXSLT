@@ -13,7 +13,7 @@
                 <h1>Catálogo de la Biblioteca</h1>
                 
                 <p><strong>Total de libros registrados: </strong> 
-                   <xsl:value-of select="count(//libro)"/></p>
+                <xsl:value-of select="count(//libro)"/></p>
 
                 <table>
                     <tr>
@@ -28,12 +28,16 @@
                         <xsl:sort select="titulo" order="ascending"/>
                         
                         <tr>
-                            <td><xsl:value-of select="titulo"/></td>
+                            <td>
+                                <xsl:value-of select="titulo"/>
+                            </td>
                             <td>
                                 <xsl:value-of select="autor"/> 
                                 (<xsl:value-of select="autor/@pais"/>)
                             </td>
-                            <td><xsl:value-of select="@categoria"/></td>
+                            <td>
+                                <xsl:value-of select="@categoria"/>
+                            </td>
                             <td>
                                 <xsl:value-of select="precio"/>
                                 <xsl:value-of select="precio/@moneda"/>
