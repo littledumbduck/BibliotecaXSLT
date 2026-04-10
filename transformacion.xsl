@@ -6,12 +6,16 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title><xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" /></title>
+                <title>
+                    <xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" />
+                </title>
                 <link rel="stylesheet" type="text/css" href="css/style.css" />
             </head>
             <body>
 
-                <h1><xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" /></h1>
+                <h1>
+                    <xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" />
+                </h1>
 
                 <p>
                     <strong>Total de libros registrados: </strong>
@@ -26,7 +30,8 @@
                             test="position() = 1 or @categoria != preceding-sibling::libro/@categoria">
                             <p><strong><xsl:value-of select="@categoria" />: </strong>
                             <xsl:value-of
-                                    select="count(//libro[@categoria = current()/@categoria])" /> libros</p>
+                                    select="count(//libro[@categoria = current()/@categoria])" />
+                                libros</p>
                         </xsl:if>
                     </xsl:for-each>
                 </div>
@@ -77,7 +82,7 @@
 
                     <xsl:for-each select="biblioteca/libro">
                         <xsl:sort select="titulo" order="ascending" />
-                        
+
                         <tr>
                             <td>
                                 <xsl:value-of select="titulo" />
@@ -86,7 +91,8 @@
                                 </xsl:if>
                             </td>
                             <td>
-                                <xsl:value-of select="autor" /> (<xsl:value-of select="autor/@pais" />)</td>
+                                <xsl:value-of select="autor" /> (<xsl:value-of select="autor/@pais" />
+                                )</td>
                             <td>
                                 <xsl:value-of select="@categoria" />
                             </td>
@@ -120,35 +126,36 @@
     <xsl:template match="/" mode="pie-contacto">
         <div class="footer">
             <h3>Contacto de la Biblioteca:</h3>
-            <datosbiblioteca>
-                    <p>
-                        <strong>Nombre: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" />
-                    </p>
-                    <p>
-                        <strong>Dirección: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/direccion" />
-                    </p>
-                    <p>
-                        <strong>Teléfono: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/telefono" />
-                    </p>
-                    <p>
-                        <strong>Horario: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/horario" />
-                    </p>
-                    <p>
-                        <strong>Web: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/web" />
-                    </p>
-                    <p>
-                        <strong>Encargado: </strong>
-                        <xsl:value-of select="/biblioteca/nombrebiblioteca/encargado" />
-                    </p>
-                </datosbiblioteca>
+            <p>
+                <strong>Nombre: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/nombre" />
+            </p>
+            <p>
+                <strong>Dirección: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/direccion" />
+            </p>
+            <p>
+                <strong>Teléfono: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/telefono" />
+            </p>
+            <p>
+                <strong>Horario: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/horario" />
+            </p>
+            <p>
+                <strong>Web: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/web" />
+            </p>
+            <p>
+                <strong>Encargado: </strong>
+                <xsl:value-of select="/biblioteca/nombrebiblioteca/encargado" />
+            </p>
+
+            <br />
+
             <xsl:element name="a">
                 <xsl:attribute name="href">mailto:<xsl:value-of select="biblioteca/@email" /></xsl:attribute>
-        Contactar con administración </xsl:element>
+                Contactar con administración </xsl:element>
         </div>
     </xsl:template>
 
