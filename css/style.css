@@ -2,41 +2,63 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #5dade2;
+    --secondary-color: #1a252f;
+    --accent-color: #ff6b6b;
+
+    /* Superficies y Fondos */
+    --background-color: #121212;
+    --surface-color: #1e1e1e;
+    --surface-alt: #252a31;
+    --surface-hover: #2a3138;
+
+    /* Tipografía */
+    --text-color: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --text-on-primary: #ffffff;
+
+    /* Bordes y Sombras */
+    --border-color: #333333;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+    --success-color: #27ae60;
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 20px;
     line-height: 1.6;
 }
 
 h1 {
-    color: #2c3e50;
+    color: var(--primary-color);
     text-align: center;
     margin-bottom: 30px;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #34495e;
-    border-bottom: 2px solid #3498db;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 h3 {
-    color: #2980b9;
+    color: var(--primary-color);
     margin-top: 0;
 }
 
 datosbiblioteca {
-    background-color: #ecf0f1;
+    background-color: var(--surface-color);
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 datosbiblioteca h1 {
@@ -49,10 +71,10 @@ datosbiblioteca p {
 }
 
 .resumen {
-    background-color: #fff;
+    background-color: var(--surface-color);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 .resumen p {
@@ -68,12 +90,12 @@ datosbiblioteca p {
 }
 
 .tarjeta {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 20px;
     width: calc(33.333% - 20px);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px var(--shadow-color);
     transition: transform 0.3s ease;
 }
 
@@ -82,16 +104,17 @@ datosbiblioteca p {
 }
 
 .tarjetascontent {
-    background-color: white;
+    background-color: var(--surface-color);
     padding: 20px;
     margin-top: 20px;
     padding-top: 1px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--shadow-color);
+    border-radius: 8px;
 }
 
 .tarjeta h3 {
     margin-top: 0;
-    color: #e74c3c;
+    color: var(--accent-color);
 }
 
 .tarjeta p {
@@ -101,27 +124,27 @@ datosbiblioteca p {
 .reseñas {
     margin-top: 15px;
     padding-top: 15px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--border-color);
 }
 
 .reseñas h4 {
     margin-bottom: 10px;
-    color: #27ae60;
+    color: var(--success-color);
 }
 
 .reseñas p {
     margin: 5px 0;
     font-style: italic;
-    color: #555;
+    color: var(--text-muted);
 }
 
 .disponible {
-    color: green;
+    color: var(--success-color);
     font-weight: bold;
 }
 
 .no-disponible {
-    color: red;
+    color: var(--accent-color);
     font-weight: bold;
 }
 
@@ -129,30 +152,30 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 30px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: var(--surface-color);
+    box-shadow: 0 2px 5px var(--shadow-color);
     border-radius: 8px;
     overflow: hidden;
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color);
     padding: 12px;
     text-align: left;
 }
 
 th {
-    background-color: #3498db;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-on-primary);
     font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: var(--surface-alt);
 }
 
 tr:hover {
-    background-color: #e8f4fd;
+    background-color: var(--surface-hover);
 }
 
 @media (max-width: 768px) {
@@ -174,9 +197,9 @@ tr:hover {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: white;
+    background-color: var(--surface-color);
     margin-top: 40px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--shadow-color);
 }
 
 .footer p {
