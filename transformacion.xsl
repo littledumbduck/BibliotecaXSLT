@@ -30,6 +30,9 @@
                         <tr>
                             <td>
                                 <xsl:value-of select="titulo"/>
+                                <xsl:if test="paginas &gt; 600">
+                                    <span style="color:red; font-size:12px;"> (Libro extenso)</span>
+                                </xsl:if>
                             </td>
                             <td>
                                 <xsl:value-of select="autor"/> 
@@ -56,15 +59,22 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-
-                <h3>Contacto:</h3>
-                <xsl:element name="a">
-                    <xsl:attribute name="href">mailto:admin@biblioteca.com</xsl:attribute>
-                    Contactar con administración
-                </xsl:element>
-
+                <br/>
+                <xsl:apply-templates select="." mode="pie-contacto"/>
             </body>
         </html>
     </xsl:template>
 
+    <xsl:template match="/" mode="pie-contacto">
+        <div class="footer">
+            <h3>Contacto de la Biblioteca:</h3>
+            <xsl:element name="a">
+                <xsl:attribute name="href">mailto:admin@biblioteca.com</xsl:attribute>
+                Contactar con administración
+            </xsl:element>
+        </div>
+    </xsl:template>
+
 </xsl:stylesheet>
+
+<!-- fase depuración   -->
