@@ -79,6 +79,10 @@ datosbiblioteca p {
 
 .resumen p {
     margin: 10px 0;
+}
+
+.resumen p strong {
+    color: var(--accent-color);
     font-weight: bold;
 }
 
@@ -87,6 +91,7 @@ datosbiblioteca p {
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .tarjeta {
@@ -97,6 +102,8 @@ datosbiblioteca p {
     width: calc(33.333% - 20px);
     box-shadow: 0 2px 5px var(--shadow-color);
     transition: transform 0.3s ease;
+    flex: 1 1 300px;
+    max-width: 100%;
 }
 
 .tarjeta:hover {

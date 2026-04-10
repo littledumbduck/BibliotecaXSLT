@@ -24,10 +24,9 @@
                         <xsl:sort select="@categoria" order="ascending" />
                         <xsl:if
                             test="position() = 1 or @categoria != preceding-sibling::libro/@categoria">
-                            <p><strong><xsl:value-of select="@categoria" />:</strong>
+                            <p><strong><xsl:value-of select="@categoria" />: </strong>
                             <xsl:value-of
-                                    select="count(//libro[@categoria = current()/@categoria])" />
-        libros</p>
+                                    select="count(//libro[@categoria = current()/@categoria])" /> libros</p>
                         </xsl:if>
                     </xsl:for-each>
                 </div>
