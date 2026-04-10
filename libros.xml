@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
 <biblioteca>
+    <nombrebiblioteca>
+        <nombre>Biblioteca Central "Alejandría Digital"</nombre>
+        <direccion>Calle de la Sabiduría, 42, 28001 Madrid</direccion>
+        <telefono>+34 912 345 678</telefono>
+        <horario>Lunes a Viernes: 09:00 - 21:00 / Sábados: 10:00 - 14:00</horario>
+        <web>www.alejandriadigital.lib</web>
+        <encargado>D. Julián Sempere</encargado>
+    </nombrebiblioteca>
+
     <libro id="L001" disponible="si" categoria="Clásico">
         <titulo>Don Quijote de la Mancha</titulo>
         <autor pais="España">Miguel de Cervantes</autor>
         <paginas>1032</paginas>
         <editorial>RAE</editorial>
         <precio moneda="EUR">19.90</precio>
+        <reseñas>
+            <reseña usuario="Librofilo99">Una obra maestra imprescindible. El lenguaje es rico y la historia eterna.</reseña>
+            <reseña usuario="SanchoPanza2">Divertido y profundo a la vez. No pasan los años por él.</reseña>
+            <reseña usuario="Lector_Critico">Al principio es denso, pero la evolución de los personajes es increíble.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L002" disponible="si" categoria="Fantasía">
@@ -15,6 +29,11 @@
         <paginas>1216</paginas>
         <editorial>Minotauro</editorial>
         <precio moneda="EUR">25.00</precio>
+        <reseñas>
+            <reseña usuario="Elessar_King">La mejor construcción de mundo jamás escrita.</reseña>
+            <reseña usuario="Galadriel_Fan">Las descripciones son tan detalladas que sientes que estás en la Tierra Media.</reseña>
+            <reseña usuario="Hobbit_Reader">Un viaje épico sobre la amistad y el sacrificio.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L003" disponible="no" categoria="Distopía">
@@ -23,6 +42,11 @@
         <paginas>328</paginas>
         <editorial>Debolsillo</editorial>
         <precio moneda="EUR">9.95</precio>
+        <reseñas>
+            <reseña usuario="Winston_S">Aterradoramente actual. Te hace cuestionar todo.</reseña>
+            <reseña usuario="BigBrother84">Un libro que debería ser de lectura obligatoria en institutos.</reseña>
+            <reseña usuario="Freedom_Lover">Me dejó una sensación de angustia por semanas. Impactante.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L004" disponible="si" categoria="Realismo Mágico">
@@ -31,6 +55,11 @@
         <paginas>496</paginas>
         <editorial>Sudamericana</editorial>
         <precio moneda="EUR">18.50</precio>
+        <reseñas>
+            <reseña usuario="Gabo_Fan">Mágico en cada palabra. Los Buendía son inolvidables.</reseña>
+            <reseña usuario="Macondo_Vibes">Es difícil seguir el árbol genealógico, pero vale totalmente la pena.</reseña>
+            <reseña usuario="Aureliano_X">La prosa de García Márquez es pura poesía visual.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L005" disponible="si" categoria="Ciencia Ficción">
@@ -39,6 +68,11 @@
         <paginas>704</paginas>
         <editorial>Nova</editorial>
         <precio moneda="EUR">21.90</precio>
+        <reseñas>
+            <reseña usuario="PaulAtreides">Épica política y ecológica en el espacio. Imprescindible.</reseña>
+            <reseña usuario="Spice_Melange">Mucho más que naves espaciales; es sociología y religión pura.</reseña>
+            <reseña usuario="Desert_Rat">El world-building es denso pero fascinante.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L006" disponible="no" categoria="Misterio">
@@ -47,6 +81,11 @@
         <paginas>608</paginas>
         <editorial>Planeta</editorial>
         <precio moneda="EUR">12.00</precio>
+        <reseñas>
+            <reseña usuario="Criptos_00">Ritmo frenético, no puedes dejar de leer.</reseña>
+            <reseña usuario="History_Buff">Entretenido, aunque hay que tomarse las "verdades" históricas con pinzas.</reseña>
+            <reseña usuario="Paris_Lover">Me encantó el recorrido por el Louvre y las calles de París.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L007" disponible="si" categoria="Drama">
@@ -55,6 +94,11 @@
         <paginas>448</paginas>
         <editorial>Alba</editorial>
         <precio moneda="EUR">14.25</precio>
+        <reseñas>
+            <reseña usuario="Lizzy_B">Una sátira social brillante con personajes encantadores.</reseña>
+            <reseña usuario="Mr_Darcy_Fan">La tensión entre los protagonistas está maravillosamente escrita.</reseña>
+            <reseña usuario="Classic_Reader">Inteligente, mordaz y muy adelantado a su tiempo.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L008" disponible="si" categoria="Terror">
@@ -63,6 +107,11 @@
         <paginas>512</paginas>
         <editorial>Penguin</editorial>
         <precio moneda="EUR">11.50</precio>
+        <reseñas>
+            <reseña usuario="VanHelsing">El mejor libro epistolar de terror. Atmósfera impecable.</reseña>
+            <reseña usuario="Night_Walker">No es el Drácula del cine; este es mucho más oscuro y misterioso.</reseña>
+            <reseña usuario="Horror_Fan">La primera parte en el castillo es simplemente magistral.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L009" disponible="no" categoria="Novela">
@@ -71,6 +120,11 @@
         <paginas>224</paginas>
         <editorial>Alianza</editorial>
         <precio moneda="EUR">10.00</precio>
+        <reseñas>
+            <reseña usuario="Holden_99">Me siento identificado con la angustia del protagonista.</reseña>
+            <reseña usuario="Teen_Spirit">Un libro que entiendes mejor cuando eres joven y estás perdido.</reseña>
+            <reseña usuario="Reader_X">Un estilo narrativo único, muy crudo y directo.</reseña>
+        </reseñas>
     </libro>
     
     <libro id="L010" disponible="si" categoria="Fantasía">
@@ -79,5 +133,10 @@
         <paginas>256</paginas>
         <editorial>Salamandra</editorial>
         <precio moneda="EUR">16.95</precio>
+        <reseñas>
+            <reseña usuario="PotterHead_1">El inicio de una aventura mágica que marcó mi infancia.</reseña>
+            <reseña usuario="Muggle_Born">Fácil de leer y muy imaginativo. Engancha desde la página uno.</reseña>
+            <reseña usuario="Hogwarts_Alumni">Es reconfortante volver a leerlo años después, no pierde el encanto.</reseña>
+        </reseñas>
     </libro>
 </biblioteca>
