@@ -10,19 +10,6 @@
         <encargado>D. Julián Sempere</encargado>
     </nombrebiblioteca>
 
-    <libro id="L001" disponible="si" categoria="Clásico">
-        <titulo>Don Quijote de la Mancha</titulo>
-        <autor pais="España">Miguel de Cervantes</autor>
-        <paginas>1032</paginas>
-        <editorial>RAE</editorial>
-        <precio moneda="EUR">19.90</precio>
-        <reseñas>
-            <reseña usuario="Librofilo99">Una obra maestra imprescindible. El lenguaje es rico y la historia eterna.</reseña>
-            <reseña usuario="SanchoPanza2">Divertido y profundo a la vez. No pasan los años por él.</reseña>
-            <reseña usuario="Lector_Critico">Al principio es denso, pero la evolución de los personajes es increíble.</reseña>
-        </reseñas>
-    </libro>
-    
     <libro id="L002" disponible="si" categoria="Fantasía">
         <titulo>El Señor de los Anillos</titulo>
         <autor pais="Reino Unido">J.R.R. Tolkien</autor>
@@ -33,35 +20,31 @@
             <reseña usuario="Elessar_King">La mejor construcción de mundo jamás escrita.</reseña>
             <reseña usuario="Galadriel_Fan">Las descripciones son tan detalladas que sientes que estás en la Tierra Media.</reseña>
             <reseña usuario="Hobbit_Reader">Un viaje épico sobre la amistad y el sacrificio.</reseña>
+            <reseña usuario="Gandalf_Grey">Extenso, pero cada página vale la pena por su profundidad mitológica.</reseña>
+            <reseña usuario="Orc_Destroyer">La batalla del Abismo de Helm es insuperable.</reseña>
+            <reseña usuario="Lector_Pausado">Me tomó tres meses leerlo, pero cambió mi forma de ver la fantasía.</reseña>
+            <reseña usuario="Tom_Bombadil">Faltaron mis canciones en la película, pero el libro es perfecto.</reseña>
+            <reseña usuario="Arwen_Undomiel">Una historia de amor y deber preciosa.</reseña>
         </reseñas>
     </libro>
-    
-    <libro id="L003" disponible="no" categoria="Distopía">
-        <titulo>1984</titulo>
-        <autor pais="Reino Unido">George Orwell</autor>
-        <paginas>328</paginas>
-        <editorial>Debolsillo</editorial>
-        <precio moneda="EUR">9.95</precio>
+
+    <libro id="L001" disponible="si" categoria="Clásico">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor pais="España">Miguel de Cervantes</autor>
+        <paginas>1032</paginas>
+        <editorial>RAE</editorial>
+        <precio moneda="EUR">19.90</precio>
         <reseñas>
-            <reseña usuario="Winston_S">Aterradoramente actual. Te hace cuestionar todo.</reseña>
-            <reseña usuario="BigBrother84">Un libro que debería ser de lectura obligatoria en institutos.</reseña>
-            <reseña usuario="Freedom_Lover">Me dejó una sensación de angustia por semanas. Impactante.</reseña>
+            <reseña usuario="Librofilo99">Una obra maestra imprescindible. El lenguaje es rico y la historia eterna.</reseña>
+            <reseña usuario="SanchoPanza2">Divertido y profundo a la vez. No pasan los años por él.</reseña>
+            <reseña usuario="Lector_Critico">Al principio es denso, pero la evolución de los personajes es increíble.</reseña>
+            <reseña usuario="Dulcinea_Love">La locura más cuerda de la literatura universal.</reseña>
+            <reseña usuario="Molino_Hater">A veces se hace repetitivo, pero el final es desgarrador.</reseña>
+            <reseña usuario="Cervantino">Es increíble cómo funciona la metaficción en la segunda parte.</reseña>
+            <reseña usuario="Letras_Vivas">El humor de Cervantes sigue siendo efectivo 400 años después.</reseña>
         </reseñas>
     </libro>
-    
-    <libro id="L004" disponible="si" categoria="Realismo Mágico">
-        <titulo>Cien años de soledad</titulo>
-        <autor pais="Colombia">Gabriel García Márquez</autor>
-        <paginas>496</paginas>
-        <editorial>Sudamericana</editorial>
-        <precio moneda="EUR">18.50</precio>
-        <reseñas>
-            <reseña usuario="Gabo_Fan">Mágico en cada palabra. Los Buendía son inolvidables.</reseña>
-            <reseña usuario="Macondo_Vibes">Es difícil seguir el árbol genealógico, pero vale totalmente la pena.</reseña>
-            <reseña usuario="Aureliano_X">La prosa de García Márquez es pura poesía visual.</reseña>
-        </reseñas>
-    </libro>
-    
+
     <libro id="L005" disponible="si" categoria="Ciencia Ficción">
         <titulo>Dune</titulo>
         <autor pais="EEUU">Frank Herbert</autor>
@@ -72,9 +55,12 @@
             <reseña usuario="PaulAtreides">Épica política y ecológica en el espacio. Imprescindible.</reseña>
             <reseña usuario="Spice_Melange">Mucho más que naves espaciales; es sociología y religión pura.</reseña>
             <reseña usuario="Desert_Rat">El world-building es denso pero fascinante.</reseña>
+            <reseña usuario="Gom_Jabbar">La prueba de la caja me puso los pelos de punta.</reseña>
+            <reseña usuario="Shai_Hulud">La mejor novela de ciencia ficción de la historia.</reseña>
+            <reseña usuario="Bene_Gesserit">Un estudio fascinante sobre el poder y la genética.</reseña>
         </reseñas>
     </libro>
-    
+
     <libro id="L006" disponible="no" categoria="Misterio">
         <titulo>El código Da Vinci</titulo>
         <autor pais="EEUU">Dan Brown</autor>
@@ -83,11 +69,42 @@
         <precio moneda="EUR">12.00</precio>
         <reseñas>
             <reseña usuario="Criptos_00">Ritmo frenético, no puedes dejar de leer.</reseña>
-            <reseña usuario="History_Buff">Entretenido, aunque hay que tomarse las "verdades" históricas con pinzas.</reseña>
-            <reseña usuario="Paris_Lover">Me encantó el recorrido por el Louvre y las calles de París.</reseña>
+            <reseña usuario="History_Buff">Entretenido, aunque hay que tomarse las "verdades" con pinzas.</reseña>
+            <reseña usuario="Paris_Lover">Me encantó el recorrido por el Louvre.</reseña>
+            <reseña usuario="Sophia_Neveu">Los acertijos son ingeniosos y te mantienen pegado al libro.</reseña>
+            <reseña usuario="Buscador_X">Un best-seller de manual, cumple lo que promete.</reseña>
         </reseñas>
     </libro>
-    
+
+    <libro id="L008" disponible="si" categoria="Terror">
+        <titulo>Drácula</titulo>
+        <autor pais="Irlanda">Bram Stoker</autor>
+        <paginas>512</paginas>
+        <editorial>Penguin</editorial>
+        <precio moneda="EUR">11.50</precio>
+        <reseñas>
+            <reseña usuario="VanHelsing">El mejor libro epistolar de terror. Atmósfera impecable.</reseña>
+            <reseña usuario="Night_Walker">No es el Drácula del cine; este es mucho más oscuro.</reseña>
+            <reseña usuario="Horror_Fan">La primera parte en el castillo es simplemente magistral.</reseña>
+            <reseña usuario="Mina_H">Atrapante y trágico a partes iguales.</reseña>
+            <reseña usuario="Blood_Reader">Un clásico que no ha perdido ni un ápice de fuerza.</reseña>
+        </reseñas>
+    </libro>
+
+    <libro id="L004" disponible="si" categoria="Realismo Mágico">
+        <titulo>Cien años de soledad</titulo>
+        <autor pais="Colombia">Gabriel García Márquez</autor>
+        <paginas>496</paginas>
+        <editorial>Sudamericana</editorial>
+        <precio moneda="EUR">18.50</precio>
+        <reseñas>
+            <reseña usuario="Gabo_Fan">Mágico en cada palabra. Los Buendía son inolvidables.</reseña>
+            <reseña usuario="Macondo_Vibes">Es difícil seguir el árbol genealógico, pero vale la pena.</reseña>
+            <reseña usuario="Aureliano_X">La prosa de García Márquez es pura poesía visual.</reseña>
+            <reseña usuario="Remedios_Bella">Un bucle infinito de tiempo y soledad que te atrapa.</reseña>
+        </reseñas>
+    </libro>
+
     <libro id="L007" disponible="si" categoria="Drama">
         <titulo>Orgullo y Prejuicio</titulo>
         <autor pais="Reino Unido">Jane Austen</autor>
@@ -98,35 +115,23 @@
             <reseña usuario="Lizzy_B">Una sátira social brillante con personajes encantadores.</reseña>
             <reseña usuario="Mr_Darcy_Fan">La tensión entre los protagonistas está maravillosamente escrita.</reseña>
             <reseña usuario="Classic_Reader">Inteligente, mordaz y muy adelantado a su tiempo.</reseña>
+            <reseña usuario="Pemberley_Lover">Elizabeth Bennet es la mejor heroína de la literatura.</reseña>
         </reseñas>
     </libro>
-    
-    <libro id="L008" disponible="si" categoria="Terror">
-        <titulo>Drácula</titulo>
-        <autor pais="Irlanda">Bram Stoker</autor>
-        <paginas>512</paginas>
-        <editorial>Penguin</editorial>
-        <precio moneda="EUR">11.50</precio>
+
+    <libro id="L003" disponible="no" categoria="Distopía">
+        <titulo>1984</titulo>
+        <autor pais="Reino Unido">George Orwell</autor>
+        <paginas>328</paginas>
+        <editorial>Debolsillo</editorial>
+        <precio moneda="EUR">9.95</precio>
         <reseñas>
-            <reseña usuario="VanHelsing">El mejor libro epistolar de terror. Atmósfera impecable.</reseña>
-            <reseña usuario="Night_Walker">No es el Drácula del cine; este es mucho más oscuro y misterioso.</reseña>
-            <reseña usuario="Horror_Fan">La primera parte en el castillo es simplemente magistral.</reseña>
+            <reseña usuario="Winston_S">Aterradoramente actual. Te hace cuestionar todo.</reseña>
+            <reseña usuario="BigBrother84">Un libro que debería ser de lectura obligatoria.</reseña>
+            <reseña usuario="Freedom_Lover">Me dejó una sensación de angustia por semanas.</reseña>
         </reseñas>
     </libro>
-    
-    <libro id="L009" disponible="no" categoria="Novela">
-        <titulo>El guardián entre el centeno</titulo>
-        <autor pais="EEUU">J.D. Salinger</autor>
-        <paginas>224</paginas>
-        <editorial>Alianza</editorial>
-        <precio moneda="EUR">10.00</precio>
-        <reseñas>
-            <reseña usuario="Holden_99">Me siento identificado con la angustia del protagonista.</reseña>
-            <reseña usuario="Teen_Spirit">Un libro que entiendes mejor cuando eres joven y estás perdido.</reseña>
-            <reseña usuario="Reader_X">Un estilo narrativo único, muy crudo y directo.</reseña>
-        </reseñas>
-    </libro>
-    
+
     <libro id="L010" disponible="si" categoria="Fantasía">
         <titulo>Harry Potter y la piedra filosofal</titulo>
         <autor pais="Reino Unido">J.K. Rowling</autor>
@@ -135,8 +140,21 @@
         <precio moneda="EUR">16.95</precio>
         <reseñas>
             <reseña usuario="PotterHead_1">El inicio de una aventura mágica que marcó mi infancia.</reseña>
-            <reseña usuario="Muggle_Born">Fácil de leer y muy imaginativo. Engancha desde la página uno.</reseña>
-            <reseña usuario="Hogwarts_Alumni">Es reconfortante volver a leerlo años después, no pierde el encanto.</reseña>
+            <reseña usuario="Muggle_Born">Fácil de leer y muy imaginativo. Engancha rápido.</reseña>
+            <reseña usuario="Hogwarts_Alumni">Es reconfortante volver a leerlo años después.</reseña>
+        </reseñas>
+    </libro>
+
+    <libro id="L009" disponible="no" categoria="Novela">
+        <titulo>El guardián entre el centeno</titulo>
+        <autor pais="EEUU">J.D. Salinger</autor>
+        <paginas>224</paginas>
+        <editorial>Alianza</editorial>
+        <precio moneda="EUR">10.00</precio>
+        <reseñas>
+            <reseña usuario="Holden_99">Me siento identificado con la angustia del protagonista.</reseña>
+            <reseña usuario="Teen_Spirit">Un libro que entiendes mejor cuando eres joven.</reseña>
+            <reseña usuario="Reader_X">Un estilo narrativo único, muy crudo y directo.</reseña>
         </reseñas>
     </libro>
 </biblioteca>
