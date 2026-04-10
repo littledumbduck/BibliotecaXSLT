@@ -207,13 +207,15 @@ tr:hover {
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     background-color: var(--surface-color);
     margin-top: 40px;
-    box-shadow: 0 2px 5px var(--shadow-color);
+    box-shadow: 0 2px 10px var(--shadow-color);
+    border-radius: 8px;
 }
 
 .footer p {
-    margin: 0;
+    margin: 10px 0;
     font-size: 1em;
+    color: var(--text-color);
 }
