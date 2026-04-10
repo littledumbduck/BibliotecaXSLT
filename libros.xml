@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
-<biblioteca>
+<biblioteca email="contacto@alejandriadigital.lib">
     <nombrebiblioteca>
         <nombre>Biblioteca Central "Alejandría Digital"</nombre>
         <direccion>Calle de la Sabiduría, 42, 28001 Madrid</direccion>
