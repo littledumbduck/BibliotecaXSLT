@@ -76,5 +76,3 @@
     </xsl:template>
 
 </xsl:stylesheet>
-
-<!-- fase depuración   -->
