@@ -86,6 +86,7 @@ datosbiblioteca p {
     padding: 20px;
     margin-top: 20px;
     padding-top: 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .tarjeta h3 {
@@ -166,4 +167,19 @@ tr:hover {
     .tarjeta {
         width: 100%;
     }
+}
+
+/* Estilos para el pie de página */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
 }

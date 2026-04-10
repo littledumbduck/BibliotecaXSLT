@@ -87,8 +87,7 @@
                                 </xsl:if>
                             </td>
                             <td>
-                                <xsl:value-of select="autor" /> (<xsl:value-of select="autor/@pais" />
-        ) </td>
+                                <xsl:value-of select="autor" /> (<xsl:value-of select="autor/@pais" />)</td>
                             <td>
                                 <xsl:value-of select="@categoria" />
                             </td>
